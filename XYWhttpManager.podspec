@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "XYWAppVersionHelper"
+  s.name         = "XYWhttpManager"
   s.version      = "1.0.1"
-  s.summary      = "XYWAppVersionHelper is a helper class  -bad english"
+  s.summary      = "XYWhttpManager is a helper class  -bad english"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                          a version manager,if you want to do something when app lanuch ,first launch this version,first launch after install.
+                          a HTTPSession manager,based on afnetworking 3.x , you can set header or others ,and reveak afn leak issues.
                    DESC
 
-  s.homepage     = "https://github.com/xueyongwei/XYWAppVersionHelper"
+  s.homepage     = "https://github.com/xueyongwei/XYWhttpManager"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/xueyongwei/XYWAppVersionHelper.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/xueyongwei/XYWhttpManager.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "XYWAppVersionHelper/XYWVersionManager/*.{h,m}"
+  s.source_files  = "XYWhttpManager/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
